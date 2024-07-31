@@ -1,0 +1,367 @@
+a.btn {
+    background:#00aeed;
+    color: white !important;
+    border-radius: unset;
+    transition: 0.5s;
+    border-radius: 50px;
+    width: 120px;
+
+}
+a.btn:hover {
+    background:#06202b;
+    color: #fff !important;
+}
+.row {
+    align-items: center;
+}
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a.btn, .form-label{
+    font-family: "Jost", sans-serif;
+}
+
+
+
+
+
+
+
+/* header */
+div#navbarNav {
+    justify-content: center;
+}
+#top {
+    background-color: transparent;
+    z-index: -1;
+}
+
+
+#top img {
+    width: 12% !important;
+    transition: 0.5s;
+}
+#top img:hover{
+    transform: scale(1.1);
+
+}
+#top #navbarNav a {
+    color: white;
+    font-weight: 700;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+#top #navbarNav a:hover {
+    color: #00aeed;
+}
+
+/* section 01 */
+#sec1 img {
+    margin-left: 10px;
+    margin-bottom: -45px;
+    transition: 0.5s;
+}
+#sec1 img:hover{
+    transform: scale(1.1);
+}
+#sec1 h1 {
+    color: white;
+    padding-top: 90px;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 6px;
+}
+
+#sec1 p {
+    color: white;
+    padding-top: 90px;
+    font-weight: 600;
+}
+
+
+#header .container {
+    margin: 62px 0px 0px 408px;
+    text-align: center;
+}
+#sec1 {
+    background-image: url(Assets/bg1_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: -110px;
+    padding: 230px 0px 0px 0px;
+}
+/* section 02 */
+#sec2 {    padding: 50px 0px 50px 0px;
+}
+#sec2 .col-md-6 {
+    padding-top: 150px;
+}
+
+#sec2 img{
+    transition: 0.5s;
+}
+#sec2 img:hover{
+    transform: scale(1.1);
+}
+
+#sec2 .bg {
+    position: relative;
+}
+#sec2 .bg:hover:before {
+    top: -10%;
+    right: -20%;
+}
+#sec2 .bg::before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background:  #00aeed;
+    z-index: -1;
+    right: 10%;
+    top: 20px;
+    transition: 0.5s;
+ }
+/* section 03 */
+
+#sec3{
+    background-image: url(Assets/sec3-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px 0px 0px 0px;
+
+}
+section#sec3 p {
+    position: relative;
+}
+
+.slick-dots li.slick-active button:before{
+    display: none;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 29px;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+#sec3 .slick  {
+    text-align: center;
+    color: white;
+}
+#sec3 span {
+    font-size: 70px;
+    font-weight: 900;
+}
+#sec3 .tt::before {
+    content: "";
+    background-image: url(Assets/inverted-left.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 12%;
+    left: 39%;
+    z-index: 999999999;
+}
+#sec3 .tt::after {
+    content: "";
+    background-image: url(Assets/inverted-right.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    z-index: 999999999;
+}
+#sec3 .tt{
+    position: relative;
+}
+    /* section 04  */
+#sec4{
+    background-image: url(Assets/bd-sec4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: -30px;
+    padding: 50px 0px;
+}
+.services img {
+    width: 65px;
+    transition: 0.5s;
+
+}
+.services img:hover{
+    transform: scale(1.2);
+    /* background-color: #00aeed !important; */
+    border: 2px solid;
+    border-radius: 30%;
+}
+#sec4 .row h1 {
+    margin-top: 27px;
+}
+#sec4 .services {
+    padding: 12px 0px;
+}
+#sec4 .services img {
+    width: 65px;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    animation: spin 5s infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(-360deg);
+        background-color: #06202b;
+        border-radius: 100%;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: #00aeed;
+        border-radius: 100%;
+    }
+}
+/* sectino05 */
+#sec5 .right img {
+    width: 45px;
+}
+#sec5 .inline {
+    display: inline-flex;
+     padding: 58px;  
+}
+#sec5 .inline img {
+    margin-right: 27px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#sec5 .inline img:hover{
+    transform: scale(1.2);
+    /* border: 2px solid; */
+    box-shadow: #062736 5px 5px 5px 5px;
+}
+#sec5 .right p {
+    margin-left: 68px;
+}
+#sec5 .left img {
+    width: 100%;
+}
+#sec5 h1 {
+    margin: 10px 56px;
+    font-weight: bolder;
+}
+#sec5 .col-md-6 {
+    overflow: hidden;
+}
+#sec5 .left:hover .text {
+    top: 35%;
+}
+#sec5 .text {
+    position: absolute;
+    top: -20%;
+    color: #fff;
+    left: 35%;
+    text-align: center;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+/* section 06 */
+section#sec6 {
+    padding: 50px 0px;
+}
+#sec6 h1 {
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: bolder;
+}
+#sec6 h5 {
+    margin-top: 20px;
+}
+#sec6 p {
+    margin-bottom: 20px;
+}
+#sec6 a.btn {
+    margin: 12px 0px;
+}
+#sec6 .container img{
+    transition: 0.5s;
+}
+#sec6 .container img:hover{
+    transform: scale3d(1.1);
+    border: #00aeed;
+    box-shadow: #062736 5px 10px 5px 5px;
+}
+/* section 07 */
+
+#sec7{
+    background-image: url(Assets/sec6-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+#sec7 a i {
+    font-size: 79px;
+    color: white;
+    text-align: center;
+    margin: 100px;
+    transition: 0.5s;
+}
+#sec7 a i:hover{
+    color: #00aeed;
+}
+
+/* section 08 */
+section#sec8 {
+    padding: 50px 0px;
+}
+#sec8 h1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+#sec8 .contact {
+    display: flex;
+}
+#sec8 h6 {
+    padding-left: 20px;
+}
+.contact a i {
+    color: black;
+    font-size: 35px;
+    transform: 0.5s;
+}
+.contact a i:hover{
+    color: #00aeed;
+}
+#sec8 p {
+    margin-left: 46px;
+}
+#sec8 .content {
+    margin: 45px 0px 0px 0px;
+}
+#sec8 h5 {
+    margin-top: 50px;
+}
+input#exampleInputEmail1 {
+    border: none;
+    border-bottom: 1px solid;
+} 
+/* bottom */
+#bottom{
+    background-color:#062736;
+    color: #fff;
+    padding: 50px 0px;
+}
+#bottom .col-lg-12 {
+    text-align: center;
+    padding-top: 200px;
+}
